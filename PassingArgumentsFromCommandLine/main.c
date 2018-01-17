@@ -3,7 +3,7 @@
 
 
 int main(int argc, char *argv[]){
-	
+	printf("\n\n");
 	switch(argc){
 	case 1:
 	printf("Name of program is: %s", argv[0]);
@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
 	default:
 	break;
 	}	
-printf("Catch you later");
+printf("\n\nCatch you later\n\n");
 
 return 0;
 }
